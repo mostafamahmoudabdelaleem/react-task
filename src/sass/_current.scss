@@ -1,0 +1,75 @@
+@import '_constant';
+
+.mid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  div {
+    width: 25%;
+    padding: 16px;
+  }
+
+  .info-card {
+    margin: 24px;
+    margin-top: 48px;
+  }
+
+  .line {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    padding: 0px;
+    color: $info_color;
+    font-size: medium;
+    position: relative;
+    .end {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+  }
+
+  .temp {
+    font-size: 64px;
+    margin: 0px;
+    margin-top: -30px;
+  }
+
+  .small-info {
+    color: $info_color;
+    font-size: medium;
+    margin: 0px;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: $small) {
+  .mid-container {
+    div {
+      width: 75%;
+    }
+  }
+}
+@media (min-width: $small) and (max-width: $medium) {
+  .mid-container {
+    div {
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width: $medium) and (max-width: $large) {
+  .mid-container {
+    div {
+      width: 35%;
+    }
+  }
+}
