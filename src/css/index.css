@@ -5,5 +5,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(0deg, #4b6cb7 0%, #182848 100%);
   color: snow;
-  height: 100vh;
+  min-height: 100vh;
 }
