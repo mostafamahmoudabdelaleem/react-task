@@ -1,25 +1,27 @@
-@import '_constant';
+@import "_constant";
 
 .autocomplete-container {
-    .autocomplete-input {
-      width: 100%;
+  .autocomplete-input {
+    width: 100%;
+    border-radius: 4px;
+    padding: 8px;
+    border-style: hidden;
+  }
+  .autocomplete-list {
+    width: 96%;
+    text-align: left;
+    background-color: white;
+    color: $info_color;
+    border-radius: 0px 0px 8px 8px;
+    p {
+      padding: 8px;
+      margin: 4px;
+      border-radius: 4px;
     }
-    .autocomplete-list {
-      width: 96%;
-      text-align: left;
-      background-color: white;
-      color: $info_color;
-      border-radius: 0px 0px 8px 8px;
-      p{
-          padding: 8px;
-          margin: 4px;
-          border-radius: 4px;
-      }
-      p:hover{
-          cursor: pointer;
-          background-color: $info_color;
-          color: white;
-      }
+    p:hover {
+      cursor: pointer;
+      background-color: $info_color;
+      color: white;
     }
   }
-  
+}
