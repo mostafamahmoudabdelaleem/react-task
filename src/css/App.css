@@ -36,7 +36,7 @@
           flex-direction: row;
   text-align: center;
   padding: 0px;
-  color: #999;
+  color: #bbb;
   font-size: medium;
   position: relative;
 }
@@ -59,7 +59,7 @@
 }
 
 .mid-container .small-info {
-  color: #999;
+  color: #bbb;
   font-size: medium;
   margin: 0px;
   margin-top: 4px;
@@ -94,7 +94,7 @@
   width: 96%;
   text-align: left;
   background-color: white;
-  color: #999;
+  color: #bbb;
   border-radius: 0px 0px 8px 8px;
 }
 
@@ -106,6 +106,6 @@
 
 .autocomplete-container .autocomplete-list p:hover {
   cursor: pointer;
-  background-color: #999;
+  background-color: #bbb;
   color: white;
 }
