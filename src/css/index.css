@@ -6,7 +6,7 @@ body {
   background: linear-gradient(0deg, #4b6cb7 0%, #182848 100%);
   color: snow;
   min-height: 100vh;
-  scrollbar-width: 8px;
+  scrollbar-width: thin;
   scrollbar-color: #888 #f1f1f100;
 }
 
