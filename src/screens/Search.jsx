@@ -57,7 +57,7 @@ export default function Search(props) {
           </div>
         </div>
       </div>
-      {loc === '' ? '' : <Current location={loc} />}
+      {loc === '' ? '' : <Current city={loc} />}
     </>
   );
 }

@@ -4,7 +4,7 @@ import { getCurrent } from "../js/api_helper";
 
 export default function Current(props) {
   const { location } = useParams();
-  const cityName = location || props.location || "cairo";
+  const cityName = location || props.city || "Cairo";
   const [locationData, setLocationData] = useState({});
   const [currentData, setCurrentData] = useState({});
   const [isLoaded, setIsLoaded] = useState(false);
