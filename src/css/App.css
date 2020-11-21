@@ -83,6 +83,10 @@
   }
 }
 
+.autocomplete-container {
+  position: relative;
+}
+
 .autocomplete-container .autocomplete-input {
   width: 100%;
   border-radius: 4px;
@@ -91,11 +95,15 @@
 }
 
 .autocomplete-container .autocomplete-list {
-  width: 96%;
   text-align: left;
   background-color: white;
   color: #bbb;
   border-radius: 0px 0px 8px 8px;
+  position: absolute;
+  z-index: 100;
+  width: 89%;
+  max-height: 250px;
+  overflow-y: scroll;
 }
 
 .autocomplete-container .autocomplete-list p {
