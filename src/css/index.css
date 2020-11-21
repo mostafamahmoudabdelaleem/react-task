@@ -6,4 +6,24 @@ body {
   background: linear-gradient(0deg, #4b6cb7 0%, #182848 100%);
   color: snow;
   min-height: 100vh;
+  scrollbar-width: 8px;
+  scrollbar-color: #888 #f1f1f100;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
